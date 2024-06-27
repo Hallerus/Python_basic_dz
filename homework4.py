@@ -1,0 +1,7 @@
+my_string = input("Введите любой текст: ")
+print("Длина строки:", len(my_string))
+print("ЗАГЛВЫНЫМИ:",my_string.upper())
+print("строчными:",my_string.lower())
+print("Безпробелов:",my_string.replace(" ", ""))
+print("1 символ:",my_string[0])
+print(len(my_string),"символ:",my_string[-1])
