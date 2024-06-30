@@ -5,8 +5,7 @@ print(immutable_var)
 #print(immutable_var)
 print("Элементы кортежа можно менять, если они являются изменяемыми.")
 
-mutable_list = ["1", 1, 1.0], 2, 3.0
+mutable_list = ["1", 1, 1.0]
 print("До:",mutable_list)
-mutable_list[0][0] = '4'
-mutable_list[0][2] = 4.0
+mutable_list = ['2', 2, 2.0]
 print("После:",mutable_list)
